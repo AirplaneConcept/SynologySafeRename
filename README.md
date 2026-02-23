@@ -246,7 +246,7 @@ If you see a message like *"cannot be loaded because running scripts is disabled
 
 ### Character Counts vs. Byte Counts
 
-This script enforces length limits by character count (`.Length` in PowerShell), not by UTF-8 byte count. Synology's underlying limits are byte-based in some contexts. After sanitization the vast majority of remaining characters are ASCII (1 byte each), so this distinction is rarely significant in practice. If you still encounter edge-case failures with non-ASCII characters after running the script, a byte-accurate variant can be produced on request.
+This script enforces length limits by character count (`.Length` in PowerShell), not by UTF-8 byte count. Synology's underlying limits are byte-based in some contexts. After sanitization the vast majority of remaining characters are ASCII (1 byte each), so this distinction is rarely significant in practice.
 
 ### Folder Renames Applied, File Renames Cancelled
 
