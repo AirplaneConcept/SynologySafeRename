@@ -4,6 +4,7 @@
 
 **Version:** Robust4 &nbsp;·&nbsp; **Platform:** Windows PowerShell &nbsp;·&nbsp; **February 2026**
 
+> *This was inspired by the miguno / sauber project, but this is designed to clean up file names in a PC folder so they can be cleanly synced to a Synology NAS rather than files that are already on the Synology NAS. This was created by AI.*
 > *Renames files and folders on your Windows drive so they back up cleanly to an encrypted Synology NAS — stripping diacritics, illegal characters, oversized names, and optional phrase patterns, with a full two-stage preview before anything is changed.*
 
 ---
