@@ -5,6 +5,7 @@
 **Version:** Robust4 &nbsp;·&nbsp; **Platform:** Windows PowerShell &nbsp;·&nbsp; **February 2026**
 
 > *This was inspired by the miguno / sauber project, but this is designed to clean up file names in a PC folder so they can be cleanly synced to a Synology NAS rather than files that are already on the Synology NAS. This was created by AI.*
+> 
 > *Renames files and folders on your Windows drive so they back up cleanly to an encrypted Synology NAS — stripping diacritics, illegal characters, oversized names, and optional phrase patterns, with a full two-stage preview before anything is changed.*
 
 ---
@@ -31,7 +32,7 @@ Before running the script for the first time, confirm the following are in place
 | **Operating System** | Windows 10 / Windows 11 (64-bit) |
 | **PowerShell** | Windows PowerShell 5.1 (built-in) or PowerShell 7+ (`pwsh`). PowerShell 7 is recommended for best compatibility. |
 | **Execution Policy** | Must allow script execution. The included `.bat` launcher passes `-ExecutionPolicy Bypass` automatically — no permanent policy change needed. |
-| **Drive / Network Share** | The target folder must be accessible as a mapped Windows drive letter (e.g. `K:\`) or a local path. The Synology share should be mounted but does NOT need to be connected — the script renames files on your Windows drive, not on the NAS. |
+| **Drive / Network Share** | The target folder must be accessible as a mapped Windows drive letter (e.g. `K:\`) or a local path. The Synology share does NOT need to be connected — the script renames files on your Windows drive, not on the NAS. |
 | **Disk Space** | No extra disk space required. Only file and folder names are changed — no data is copied or duplicated. |
 | **Administrator Rights** | Not required. Standard user privileges are sufficient, provided you have write access to the target folder. |
 
